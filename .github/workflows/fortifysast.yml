@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@ikkb77 
-ikkb77
-/
-sample-eightball
-Public
-forked from fortify/sample-eightball
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-sample-eightball/.github/workflows/fortifysast.yml
-@ikkb77
-ikkb77 Update fortifysast.yml
-Latest commit 76f90a7 on 18 Feb
- History
- 1 contributor
-62 lines (56 sloc)  2.99 KB
-   
 name: Fortify ScanCentral SAST Scan
 on:
   workflow_dispatch:
@@ -89,16 +60,4 @@ jobs:
         with:
            name: scancentral-logs
            path: ~/.fortify/scancentral/log
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
